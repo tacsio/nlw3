@@ -23,23 +23,20 @@
 - [NodeJs][nodejs] - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 - [Typescript][typescript] - TypeScript is an open-source language which builds on JavaScript, one of the world’s most used tools, by adding static type definitions.
 - [SQLite][sqlite] - SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.
-- [Axios][axios] - Promise based HTTP client for the browser and node.js.
-- [Knex][knex] - A query builder for PostgreSQL, MySQL and SQLite3, designed to be flexible, portable, and fun to use.
+- [TypeORM][typeorm] - TypeORM is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).
 - [Multer][multer] - Node.js middleware for handling multipart/form-data, which is primarily used for uploading files.
-- [Celebrate][celebrate] - A joi validation middleware for Express.
+- [Yup][yup] - Yup is a JavaScript schema builder for value parsing and validation. Define a schema, transform a value to match, validate the shape of an existing value, or both.
 
 #### :heavy_dollar_sign: Run Scripts
 
 ```bash
-yarn knex-migrate
-yarn knex-seed
-yarn
 yarn install
+yarn typeorm migration:run
 yarn dev
 ```
 
 ## :zap: Backend Quarkus
-
+- [Kotlin][kotlin] - A modern programming language that makes developers happier.
 - [Java 11][java11] - JDK 11 is the open-source reference implementation of version 11 of the Java SE Platform as specified by by JSR 384 in the Java Community Process.
 - [Quarkus][quarkus] - A Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.
 - [H2 Database][h2] - The Java SQL database. Very fast, open source, JDBC API. Embedded and server modes; in-memory databases
@@ -101,6 +98,7 @@ yarn start
 [rocketseat]: https://github.com/rocketseat
 [nodejs]: https://nodejs.org
 [java11]: https://openjdk.java.net/projects/jdk/11/
+[kotlin]: https://kotlinlang.org/
 [typescript]: https://www.typescriptlang.org/
 [reactjs]: https://reactjs.org/
 [reactnative]: https://reactnative.dev/
@@ -112,11 +110,13 @@ yarn start
 [expo-location]: https://docs.expo.io/versions/latest/sdk/location/
 [multer]: https://github.com/expressjs/multer
 [celebrate]: https://github.com/arb/celebrate
+[yup]: https://github.com/jquense/yup
 [knex]: http://knexjs.org/
 [react-router-dom]: https://github.com/ReactTraining/react-router#readme
 [react-icons]: https://react-icons.github.io/react-icons/
 [react-dropzone]: https://react-dropzone.js.org/
 [leaflet]: https://leafletjs.com/
+[typeorm]: https://typeorm.io/#/
 [react-leaflet]: https://react-leaflet.js.org/
 [h2]: http://www.h2database.com/html/main.html
 [sqlite]: https://www.sqlite.org/index.html
