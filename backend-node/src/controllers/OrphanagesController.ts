@@ -4,6 +4,16 @@ import Orphanage from "../models/Orphanage";
 import orphanagesView from "../views/orphanages_view";
 import * as Yup from "yup";
 
+interface OrphanageForm {
+  name: string;
+  latitude: number;
+  longitude: number;
+  about: string;
+  instructions: string;
+  opening_hours: string;
+  open_on_weekends: string;
+}
+
 export default {
   async index(request: Request, response: Response) {
     const orphanagesRepository = getRepository(Orphanage);
@@ -34,7 +44,7 @@ export default {
       instructions,
       opening_hours,
       open_on_weekends,
-    } = request.body;
+    }: OrphanageForm = request.body;
 
     const requestImages = request.files as Express.Multer.File[];
     const images = requestImages.map((image) => {
@@ -50,7 +60,7 @@ export default {
       about,
       instructions,
       opening_hours,
-      open_on_weekends,
+      open_on_weekends: Boolean(open_on_weekends.toLowerCase() === "true"),
       images,
     };
 

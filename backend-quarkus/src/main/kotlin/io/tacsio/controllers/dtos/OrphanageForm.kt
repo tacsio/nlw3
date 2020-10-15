@@ -6,7 +6,7 @@ import javax.validation.constraints.NotEmpty
 import javax.validation.constraints.NotNull
 import javax.ws.rs.FormParam
 
-class OrphanageForm() {
+class OrphanageForm {
 
     @NotBlank
     @FormParam("name")
