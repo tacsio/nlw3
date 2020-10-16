@@ -7,6 +7,7 @@
 </h4>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/tacsio/nlw3?color=%237159c1)
+![GitHub language count](https://img.shields.io/github/languages/count/tacsio/nlw3?color=%237159c1)
 ![GitHub top language](https://img.shields.io/github/languages/top/tacsio/nlw3?color=%237159c1)
 ![GitHub last commit](https://img.shields.io/github/last-commit/tacsio/nlw3?color=%237159c1)
 [![GitHub issues](https://img.shields.io/github/issues-raw/tacsio/nlw3?color=%237159c1)](https://github.com/tacsio/nlw3/issues)
