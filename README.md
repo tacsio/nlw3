@@ -28,7 +28,7 @@
 - [Multer][multer] - Node.js middleware for handling multipart/form-data, which is primarily used for uploading files.
 - [Yup][yup] - Yup is a JavaScript schema builder for value parsing and validation. Define a schema, transform a value to match, validate the shape of an existing value, or both.
 
-#### :heavy_dollar_sign: Run Scripts
+#### :hash: Run Scripts
 
 ```bash
 yarn install
@@ -42,7 +42,7 @@ yarn dev
 - [Quarkus][quarkus] - A Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.
 - [H2 Database][h2] - The Java SQL database. Very fast, open source, JDBC API. Embedded and server modes; in-memory databases
 
-#### :heavy_dollar_sign: Run Scripts
+#### :hash: Run Scripts
 
 ```bash
 mvn quarkus:dev
@@ -57,7 +57,7 @@ mvn quarkus:dev
 - [Leaflet][leaflet] - An open-source JavaScript library for mobile-friendly interactive maps.
 - [React Leaflet][react-leaflet] - ⚛️ React components for 🍃 Leaflet maps.
 
-#### :heavy_dollar_sign: Run Scripts
+#### :hash: Run Scripts
 
 ```bash
 yarn install
@@ -74,9 +74,9 @@ yarn start
 - [Expo][expo] - Expo is an open-source platform for making universal native apps for Android, iOS, and the web with JavaScript and React.
 - [Expo Constants][expo-constants] - Provides system information that remains constant throughout the lifetime of your app's install.
 - [Expo Font][expo-font] - Allows loading fonts from the web and using them in React Native components. See more detailed usage information in the Using Custom Fonts guide.
-- [Expo Location][expo-location] - Allows reading geolocation information from the device. Your app can poll for the current location or subscribe to location update events.
+- [Expo MapView][expo-mapview]-  Map component that uses Apple Maps or Google Maps on iOS and Google Maps on Android.
 
-#### :heavy_dollar_sign: Run Scripts
+#### :hash: Run Scripts
 
 ```bash
 yarn install
@@ -108,6 +108,7 @@ yarn start
 [expo]: https://expo.io/
 [expo-constants]: https://docs.expo.io/versions/latest/sdk/constants/
 [expo-font]: https://docs.expo.io/versions/latest/sdk/font/
+[expo-mapview]: https://docs.expo.io/versions/latest/sdk/map-view/
 [expo-location]: https://docs.expo.io/versions/latest/sdk/location/
 [multer]: https://github.com/expressjs/multer
 [celebrate]: https://github.com/arb/celebrate
